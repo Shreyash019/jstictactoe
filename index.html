@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Tic Tac Toe</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="headh2">
+            <p class="phead">Tic Tac Toe</p>
+        </div>
+        
+        <div class="content">
+            <div class="row">
+                <input type="text" class="input" id="b1" onclick="myfunc_1();myfunc()" readonly>
+                <input type="text" class="input"  id="b2" onclick="myfunc_2();myfunc()" readonly>
+                <input type="text" class="input"  id="b3" onclick="myfunc_3();myfunc()" readonly>
+            </div>
+            <div class="row">
+                <input type="text" class="input"  id="b4" onclick="myfunc_4();myfunc()" readonly>
+                <input type="text" class="input"  id="b5" onclick="myfunc_5();myfunc()" readonly>
+                <input type="text" class="input"  id="b6" onclick="myfunc_6();myfunc()" readonly>
+            </div>
+            <div class="row">
+                <input type="text" class="input"  id="b7" onclick="myfunc_7();myfunc()" readonly>
+                <input type="text" class="input"  id="b8" onclick="myfunc_8();myfunc()" readonly>
+                <input type="text" class="input"  id="b9" onclick="myfunc_9();myfunc()" readonly>
+            </div>
+            <h5 id="plyr">---</h5>
+            <div class="winner">
+                <h2 id="print">---</h1>
+
+            </div>
+            <div>
+                <button class="button" id="reset" onclick="reset()">Reset</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
